@@ -1,0 +1,135 @@
+.bitter-uniquifier {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style:italic;
+}
+*{
+    margin: 0;
+    padding: 5;
+}
+.sidebar{
+   background-color:bisque;
+    width: 429px;;
+    height: 190vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: brown;
+}
+
+.main{
+ 
+    width: 90vw;
+    height: 100vh;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+    background-color:azure;
+    height:65vh ;
+    width:87vw;
+    margin:142px auto;
+    display:flex;
+    justify-content:space-around ;
+}
+.Hello{
+    font-size: 81px;
+}
+.name{
+    font-size: 68px;
+    font-weight: bold;
+}
+.About{
+    font-size: 50px;
+}
+.moreabout{
+    font-size: 29px;
+    margin-top: 29px;
+    font-style: italic;
+}
+.buttons{
+    margin-top: 74px;
+
+}
+.btn  {
+    padding:  15px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    color:rgb(178, 20, 20);
+    background-color:rgb(5, 28, 50);
+    font: size 77px;
+    margin:0 31px;
+    cursor:"pointer";
+}
+.buttons button :hover{
+  background-color: bisque;
+  color:white;
+}
+
+.devimg{
+    height:66vh;
+}
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+.contactform h1{
+    font-family: "Source Code Pro",monospace;
+
+}
+.contactform form div {
+    padding: 14px 0;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.contactform form div input{
+    padding: 9px 0;
+    margin:6px 0  0  0;
+    width: 30vw;
+    border-radius: 5px;
+}
+
+#emailHelp{
+    font-size: 14px;
+    color:darkslategrey;
+}
+
+#form-check{
+  flex-direction: row;
+}
+
+#form-check input{
+    width: 29px;
+    margin: 4px 0;
+}
+.skillscontanier{
+    display: flexbox;
+}
+.skillsitem{
+    padding: 21px;
+
+}
+.skill{
+
+    width: 265px;
+    height: 8px;
+    background-color:brown;
+
+}
